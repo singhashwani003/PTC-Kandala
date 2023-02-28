@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/singhashwani003/PTC-Kandala.git/static/css/main.236c855d.css",
+    "main.js": "/singhashwani003/PTC-Kandala.git/static/js/main.b2553857.js",
+    "static/js/787.d3befce1.chunk.js": "/singhashwani003/PTC-Kandala.git/static/js/787.d3befce1.chunk.js",
+    "index.html": "/singhashwani003/PTC-Kandala.git/index.html",
+    "main.236c855d.css.map": "/singhashwani003/PTC-Kandala.git/static/css/main.236c855d.css.map",
+    "main.b2553857.js.map": "/singhashwani003/PTC-Kandala.git/static/js/main.b2553857.js.map",
+    "787.d3befce1.chunk.js.map": "/singhashwani003/PTC-Kandala.git/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.236c855d.css",
+    "static/js/main.b2553857.js"
+  ]
+}
