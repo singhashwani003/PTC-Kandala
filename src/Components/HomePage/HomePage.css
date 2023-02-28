@@ -1,0 +1,32 @@
+.card-img-top{
+    padding: 10px 45px;
+    /* border-radius: 29px; */
+}
+.khandala{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.copyright{
+    background-color: #e8e8e8;
+    color: #696969;
+    display: block;
+    padding: 16px;
+}
+.unset{
+    color:#838484
+}
+.text-para{
+    text-align: justify;
+}
+.head-text-start{
+    text-align:left!important;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+.khandala1{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+}

@@ -1,0 +1,18 @@
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+.btn.disabled, .btn:disabled {
+    opacity: .65;
+}
+ a{
+    color: #4472ca;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-toggler{
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .navbar-toggler{display:block;}
+   
+  }
