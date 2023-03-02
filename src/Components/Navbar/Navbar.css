@@ -12,6 +12,33 @@
 .navbar-toggler{
     display: none;
 }
+.x-text{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.x-text:hover{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+ /* .x-text:after {
+    content: '';
+    background-color: #ffbd33;
+    height: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.3s;
+} */
+
 @media screen and (max-width: 960px) {
     .navbar-toggler{display:block;}
    

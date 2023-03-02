@@ -3,7 +3,7 @@ import "./Navbar.css"
 export default function Navbar() {
   return (
     <div>
-        <nav className="navbar logobar navbar-light bg-white border-bottom">
+        <nav className="navbar logobar border-bottom">
             <div className="container">
                 <div className="d-flex align-items-center justify-content-center w-100">
                         <div className="d-flex flex-column">
@@ -51,42 +51,42 @@ export default function Navbar() {
                      </div>
                      </div>
         </nav>
-        <nav className="navbar navbar-expand-sm navbar-light bg-light border-bottom p-4">
+        <nav className="navbar navbar-expand-sm border-bottom p-4" style={{backgroundColor: "#9261aa"}}>
                 <div className="container-sm">
                     <div className="collapse navbar-collapse" id="mynavbar">
                             <ul className="navbar-nav d-flex flex-wrap">
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#" >Home</a>
+                                    <a className="nav-link x-text" href="#">Home</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">About PTC</a>
+                                    <a className="nav-link  x-text" href="#">About PTC</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">In Service Courses</a>
+                                    <a className="nav-link  x-text" href="#">In Service Courses</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Training</a>
+                                    <a className="nav-link x-text" href="#">Training</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Trainees Courses</a>
+                                    <a className="nav-link x-text" href="#">Trainees Courses</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Achievement</a>
+                                    <a className="nav-link x-text" href="#">Achievement</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Social Responsibilities</a>
+                                    <a className="nav-link x-text" href="#">Social Responsibilities</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Gallery</a>
+                                    <a className="nav-link x-text" href="#">Gallery</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">E-Libraries</a>
+                                    <a className="nav-link x-text" href="#">E-Libraries</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Enquiry</a>
+                                    <a className="nav-link x-text" href="#">Enquiry</a>
                                 </li>
                                 <li className="nav-item pe-3">
-                                    <a className="nav-link" href="#">Contact-Us</a>
+                                    <a className="nav-link x-text" href="#">Contact-Us</a>
                                 </li>
                             </ul>
                     </div>

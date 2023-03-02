@@ -3,7 +3,10 @@ import "./HomePage.css";
 export default function Homefooter() {
   return (
     <div>
-        <div className="container mt-3 pt-5">
+        <div className='container-fluid'>
+            <iframe width="100%" height="508" id="gmap_canvas" src="https://maps.google.com/maps?q=on%20Old%20Mumbai%20Pune%20highway%20Arsiwalla%20Villa,%20Khandala,%20Lonavala,%20Maharashtra%20410302&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"  marginheight="0" marginwidth="0"></iframe>
+        </div>
+        <div className="container-fluid pt-5 pb-3" style={{backgroundColor:"#faa652" ,paddingLeft:"3rem",paddingRight:"3rem"}}>
                 <div className="row">
                     <div className="col-md-5">
                         <div className="d-flex align-items-center">
@@ -55,12 +58,12 @@ export default function Homefooter() {
                     </div>
                 </div>
                 </div>
-                <small class="copyright text-center mt-4">
-                    <div class="row">
-                        <div class="col-4 text-right">Copyright  <span className="text-danger">PTC Khandala </span> 2023. All Rights Reserved.</div>
-                        <div class="col-4">Police Training Center, Khandala, Dist – Pune, Tal – Maval Maharashtra, India.</div>
-                        <div class="col-4 text-left">
-                            <a href="#" target="_blank" class="unset"><span className="text-danger"> Happy Visitors Dot Com – </span><br/>Website Design and Development Company In Kolhapur</a>
+                <small className="copyright text-center pt-3">
+                    <div className="row">
+                        <div className="col-4 text-right">Copyright  <span className="text-danger">PTC Khandala </span> 2023. All Rights Reserved.</div>
+                        <div className="col-4">Police Training Center, Khandala, Dist – Pune, Tal – Maval Maharashtra, India.</div>
+                        <div className="col-4 text-left">
+                            <a href="#" target="_blank" className="unset"><span className="text-danger"> Happy Visitors Dot Com – </span><br/>Website Design and Development Company In Kolhapur</a>
                         </div>
                     </div>
                 </small>
