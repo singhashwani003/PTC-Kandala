@@ -10,6 +10,8 @@
 }
 .khandala-sec{
     background-color: rgba(217,217,217,1);
+    padding-left: 3rem;
+    padding-right:3rem;
 }
 .copyright{
     background-color: #e8e8e8;
@@ -71,12 +73,8 @@
 .line-height-1 {
     line-height: 1!important;
 }
-.sp-section {
-    width: 450px;
-}
 .sp-section-img {
     width: 100%!important;
-    max-width: 450px!important;
 }
 .sp-section-img{
     margin-left: auto;
@@ -256,3 +254,56 @@ transform: rotateY(-35deg) rotateX(15deg);
     padding-top:12rem;
     background-color: #f1f4f8;
  }
+ .section-title {
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+.section-title p {
+    margin-top:30px;
+    margin-bottom: 0;
+    color: #122f57;
+}
+.count-box {
+    padding: 30px;
+    width: 100%;
+}
+.count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    float: left;
+    line-height: 0;
+}
+.count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 35px;
+}
+.count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #122f57;
+}
+

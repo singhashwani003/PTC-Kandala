@@ -3,8 +3,8 @@ import "./HomePage.css";
 export default function Homefooter() {
   return (
     <div>
-        <div className='container-fluid'>
-            <iframe width="100%" height="508" id="gmap_canvas" src="https://maps.google.com/maps?q=on%20Old%20Mumbai%20Pune%20highway%20Arsiwalla%20Villa,%20Khandala,%20Lonavala,%20Maharashtra%20410302&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0"  marginheight="0" marginwidth="0"></iframe>
+        <div className='container-fluid mt-5 pt-3'>
+            <iframe width="100%" height="508" id="gmap_canvas" src="https://goo.gl/maps/UsB6qLMAmLJRHrdM7" frameborder="0"  marginheight="0" marginwidth="0"></iframe>
         </div>
         <div className="container-fluid pt-5 pb-3" style={{backgroundColor:"#faa652" ,paddingLeft:"3rem",paddingRight:"3rem"}}>
                 <div className="row">

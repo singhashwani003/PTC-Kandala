@@ -1,5 +1,6 @@
 import React from 'react'
 import Homefooter from './Homefooter'
+import CountUp from "react-countup";
 import "./HomePage.css"
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
                     </div>
                 </div>
         </div>
+
         <div className='container pt-3 mt-5' style={{backgroundColor:"#eef5f9"}}>
             <div className='row d-flex flex-nowrap align-items-center justify-content-between'>
                     <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12">
@@ -47,8 +49,8 @@ export default function Home() {
                             <h5 className='main1'> &nbsp;<strong>सदैव तत्पर, सदैव मदतीस </strong></h5>
                             <h5 className='text-secondary mt-3' style={{fontFamily: "auto"}}>Taking stock of your security round the clock! Dial 100 in case of any emergency. Help us to help you.</h5>
                             <div className='d-flex align-items-center mt-2'>
-                            <button className="btn btn-lg btn-primary">From CP′s Desk</button>
-                            <button className="btn btn-lg btn-warning text-dark ms-3">Run For Unity</button>
+                            <button className="btn btn-md btn-primary">From CP′s Desk</button>
+                            <button className="btn btn-md btn-warning text-dark ms-3">Run For Unity</button>
                             </div>
                         </div>
                     </div>
@@ -80,6 +82,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
         <div className='container-fluid khandala pt-5 pb-5 border-bottom'>
            <div className='row d-flex justify-content-around align-items-center'>
                 <div className='col-sm-5 col-md-3 col-xl-3 col-lg-3'>
@@ -166,6 +169,7 @@ export default function Home() {
                 </div>
            </div>
         </div>
+
         <div className='container mt-5 pt-3'>
                 <div class="justify-content-center my-5  container">
                         <blockquote class="blockquote text-center mb-5">
@@ -219,9 +223,10 @@ export default function Home() {
                         </div>
                 </div>
         </div>
-                <div className="container  mt-3 pt-5 pb-3 khandala-sec">
+
+                <div className="container-fluid mt-3 pt-5 pb-3 khandala-sec">
                         <div className="row">
-                            <div className="col-12 col-md-4 mt-5 col d-flex align-items-center">
+                            <div className="col-12 col-md-5 mt-5 col d-flex align-items-center">
                                 <div className="col">
                                     <div className="sp-section">
                                     <img alt="contact Sp" src="/img/img.5.jpg" className="d-block align-center sp-section-img"></img>
@@ -229,7 +234,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-                        <div className="col-12 col-md-8 mt-5 col">
+                        <div className="col-12 col-md-7 mt-5 col">
                             <div className="row">
                                     <div className="col-12 col-md-2 justify-content-center col">
                                         <img alt="quote" src="/img/quote.svg" width="85" height="59" className="d-block align-top rounded-circle m-auto"></img>
@@ -242,6 +247,7 @@ export default function Home() {
                         </div>
                         </div>
                 </div>
+
                 <section class="container col6">
                     <div class="container4">
                         <div class="shape">
@@ -272,20 +278,54 @@ export default function Home() {
                         </div>
                      </div>
                 </section>
+
+                <div class="container my-5 py-5">
+                    <div class="section-title">
+                        <h2>Facts</h2>
+                    <p>The Police training Centre, Khandala was established in the year 1960 informed and educated and it is situated in the Sahyadri ranges of Maval Tahsil of Pune district. The institute is approximately at an altitude of 1000 meters from mean sea level and acquires 46 acres of land. Over the years, 63 batches of men and 28 batches of women Police Constable have been trained successfully</p>
+                        </div>
+                    <div class="row no-gutters">
+                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                             <div class="count-box"><i class="bi bi-emoji-smile"></i> 
+                                <span><CountUp end ={232} /></span><p><strong>Happy Clients</strong> consequuntur quae</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box"><i class="bi bi-journal-richtext"></i><span><CountUp end ={521} /></span><p>
+                                <strong>Projects</strong> adipisci atque cum quia aut</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box"> 
+                                <i class="bi bi-headset"></i> 
+                                <span><CountUp end ={1453} /></span><p>
+                                <strong>Hours Of Support</strong> aut commodi quaerat</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box"> 
+                                <i class="bi bi-people"></i> 
+                                <span><CountUp end ={1453} /></span>
+                                <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <div className='container-fluid mt-5 gallery'>
-                <h2 className='text-secondary d-flex align-items-center justify-content-center py-5' style={{fontWeight:"700"}}> Police Training Center Khandala Gallery</h2>
+                <h2 className='text-secondary d-flex align-items-center justify-content-center pb-5 mb-3' style={{fontWeight:"700"}}> Police Training Center Khandala Gallery</h2>
                     <div className='row'>
                       <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-5.png" alt="galleryimage" style={{width:"350px",height:"300px",borderRadius:"6px"}}></img>
+                            <img src="img/a-5.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
                       </div>
                       <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-2.png" alt="galleryimage" style={{width:"350px",height:"300px",borderRadius:"6px"}}></img>
+                            <img src="img/a-2.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
                       </div>
                       <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-3.png" alt="galleryimage" style={{width:"350px",height:"300px",borderRadius:"6px"}}></img>
+                            <img src="img/a-3.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
                       </div>
                       <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-4.png" alt="galleryimage" style={{width:"350px",height:"300px",borderRadius:"6px"}}></img>
+                            <img src="img/a-4.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
                       </div>
                     </div>
                 </div>
