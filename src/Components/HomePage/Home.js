@@ -43,7 +43,7 @@ export default function Home() {
                         <div className="complaint-section">
                             <div className='d-flex align-items-center'>
                                 <img src="img/ourLogo@2x.png" className="our-logo hidden-xs" alt="Mumbai Police"></img>
-                                <img src="img/76.jpg" clasName="our-logo hidden-xs" alt="Mumbai Police" style={{marginLeft: "55px",height: "181px"}}></img>
+                                <img src="img/76.jpg" className="our-logo hidden-xs" alt="Mumbai Police" style={{marginLeft: "55px",height: "181px"}}></img>
                             </div>
                             <h1 className='main'>Police Training Center</h1>
                             <h5 className='main1'> &nbsp;<strong>सदैव तत्पर, सदैव मदतीस </strong></h5>
@@ -171,51 +171,51 @@ export default function Home() {
         </div>
 
         <div className='container mt-5 pt-3'>
-                <div class="justify-content-center my-5  container">
-                        <blockquote class="blockquote text-center mb-5">
-                            <h2 class="text-center main">Most Used By PTC Khandala</h2>
-                            <p class="sc-dlnjwi dJXsSm">From 'Lost &amp; Found' to 'Tenant Information' and everything in between, we have listed Quick Links of our most used sections here for you.</p>
+                <div className="justify-content-center my-5  container">
+                        <blockquote className="blockquote text-center mb-5">
+                            <h2 className="text-center main">Most Used By PTC Khandala</h2>
+                            <p className="sc-dlnjwi dJXsSm">From 'Lost &amp; Found' to 'Tenant Information' and everything in between, we have listed Quick Links of our most used sections here for you.</p>
                         </blockquote>
                         <div>
-                            <div class="row">
-                                <div class="mt-5 d-flex flex-column align-items-center col">
-                                    <a class="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
-                                    <img alt="[object Object]" src="/img/lost-and-found.svg" width="65" height="67" class="d-inline-block align-top"></img></a>
-                                    <p class="text-center mt-3"><span>Lost &amp; Found</span></p>
+                            <div className="row">
+                                <div className="mt-5 d-flex flex-column align-items-center col">
+                                    <a className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
+                                    <img alt="[object Object]" src="/img/lost-and-found.svg" width="65" height="67" className="d-inline-block align-top"></img></a>
+                                    <p className="text-center mt-3"><span>Lost &amp; Found</span></p>
                             </div>
-                                <div class="mt-5 d-flex flex-column align-items-center col">
-                                    <a class="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
-                                    <img alt="[object Object]" src="/img/police-recruitment.svg" width="65" height="67" class="d-inline-block align-top"></img>
+                                <div className="mt-5 d-flex flex-column align-items-center col">
+                                    <a className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
+                                    <img alt="[object Object]" src="/img/police-recruitment.svg" width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
-                                    <p class="text-center mt-3">
+                                    <p className="text-center mt-3">
                                     <span>Police Recruitment</span>
                                     </p>
                                 </div>
-                                <div class="mt-5 d-flex flex-column align-items-center col">
-                                    <a href="#" target="_blank" class="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
-                                    <img alt="[object Object]" src="/img/tenant-information.svg" width="65" height="67" class="d-inline-block align-top"></img>
+                                <div className="mt-5 d-flex flex-column align-items-center col">
+                                    <a href="#" target="_blank" className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
+                                    <img alt="[object Object]" src="/img/tenant-information.svg" width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
-                                    <p class="text-center mt-3"><span>Tenant Information</span></p>
+                                    <p className="text-center mt-3"><span>Tenant Information</span></p>
                                 </div>
-                                <div class="mt-5 d-flex flex-column align-items-center col">
-                                    <a href="#" target="_blank" class="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
-                                    <img alt="[object Object]" src="/img/missing-person.svg" width="65" height="67" class="d-inline-block align-top"></img>
+                                <div className="mt-5 d-flex flex-column align-items-center col">
+                                    <a href="#" target="_blank" className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
+                                    <img alt="[object Object]" src="/img/missing-person.svg" width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
-                                    <p class="text-center mt-3"><span>Missing Persons</span></p>
+                                    <p className="text-center mt-3"><span>Missing Persons</span></p>
                                 </div>
-                                <div class="mt-5 d-flex flex-column align-items-center col">
-                                    <a class="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
-                                    <img alt="[object Object]" src="/img/accident-compensation.svg" width="65" height="67" class="d-inline-block align-top"></img>
+                                <div className="mt-5 d-flex flex-column align-items-center col">
+                                    <a className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
+                                    <img alt="[object Object]" src="/img/accident-compensation.svg" width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
-                                    <p class="text-center mt-3">
+                                    <p className="text-center mt-3">
                                     <span>Accident Compensation</span>
                                     </p>
                                 </div>
-                                <div class="mt-5 d-flex flex-column align-items-center col">
-                                    <a href="#" target="_blank" class="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
-                                    <img alt="[object Object]" src="/img/stolen-unclaimed-vehicle.svg" width="65" height="67" class="d-inline-block align-top"></img>
+                                <div className="mt-5 d-flex flex-column align-items-center col">
+                                    <a href="#" target="_blank" className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
+                                    <img alt="[object Object]" src="/img/stolen-unclaimed-vehicle.svg" width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
-                                    <p class="text-center mt-3">
+                                    <p className="text-center mt-3">
                                     <span>Stolen &amp; Unclaimed Vehicles</span>
                                     </p>
                                 </div>
@@ -248,14 +248,14 @@ export default function Home() {
                         </div>
                 </div>
 
-                <section class="container col6">
-                    <div class="container4">
-                        <div class="shape">
+                <section className="container col6">
+                    <div className="container4">
+                        <div className="shape">
                             <h1>Our Trainers are well Qualified</h1>
                             <p>We don't like to brag, but we don't mind letting our customers do it for us.<br/> Here are a few nice things folks have said about our themes over the years</p>
                         </div>
-                        <div class="row shape1">
-                                <div class="col-sm-6 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center" style={{borderRadius: "0px 150px 150px 0px",backgroundColor:"rgb(232 243 218)"}}>
+                        <div className="row shape1">
+                                <div className="col-sm-6 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center" style={{borderRadius: "0px 150px 150px 0px",backgroundColor:"rgb(232 243 218)"}}>
                                 <div>
                                     <h1>Indoor Training</h1>
                                     <p>"Indoor and Outdoor basic training for women police constables is imparted for a period of 09 months."</p>
@@ -264,7 +264,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 </div>
-                                <div class="col-sm-6 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center">
+                                <div className="col-sm-6 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center">
                                     <div>
                                         <h1>Outdoor Training</h1>
                                         <p>"The trainees mainly belong to various remote and tribal districts of Maharashtra like Nagpur, Gadchiroli, Chandrapur, Gondia, etc."</p>
@@ -273,38 +273,38 @@ export default function Home() {
                                         </div>
                                     </div>
                             </div>
-                            <i class='fas fa-arrow-alt-circle-left' id="prev" style={{color:"royalblue"}}></i>
-                            <i class='fas fa-arrow-alt-circle-right' id="next" style={{color:"royalblue"}}></i>
+                            <i className='fas fa-arrow-alt-circle-left' id="prev" style={{color:"royalblue"}}></i>
+                            <i className='fas fa-arrow-alt-circle-right' id="next" style={{color:"royalblue"}}></i>
                         </div>
                      </div>
                 </section>
 
-                <div class="container my-5 py-5">
-                    <div class="section-title">
+                <div className="container my-5 py-5">
+                    <div className="section-title">
                         <h2>Facts</h2>
                     <p>The Police training Centre, Khandala was established in the year 1960 informed and educated and it is situated in the Sahyadri ranges of Maval Tahsil of Pune district. The institute is approximately at an altitude of 1000 meters from mean sea level and acquires 46 acres of land. Over the years, 63 batches of men and 28 batches of women Police Constable have been trained successfully</p>
                         </div>
-                    <div class="row no-gutters">
-                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-                             <div class="count-box"><i class="bi bi-emoji-smile"></i> 
+                    <div className="row no-gutters">
+                        <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                             <div className="count-box"><i className="bi bi-emoji-smile"></i> 
                                 <span><CountUp end ={232} /></span><p><strong>Happy Clients</strong> consequuntur quae</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                            <div class="count-box"><i class="bi bi-journal-richtext"></i><span><CountUp end ={521} /></span><p>
+                        <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                            <div className="count-box"><i className="bi bi-journal-richtext"></i><span><CountUp end ={521} /></span><p>
                                 <strong>Projects</strong> adipisci atque cum quia aut</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                            <div class="count-box"> 
-                                <i class="bi bi-headset"></i> 
+                        <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                            <div className="count-box"> 
+                                <i className="bi bi-headset"></i> 
                                 <span><CountUp end ={1453} /></span><p>
                                 <strong>Hours Of Support</strong> aut commodi quaerat</p>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-                            <div class="count-box"> 
-                                <i class="bi bi-people"></i> 
+                        <div className="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                            <div className="count-box"> 
+                                <i className="bi bi-people"></i> 
                                 <span><CountUp end ={1453} /></span>
                                 <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
                             </div>

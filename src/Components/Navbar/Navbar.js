@@ -1,5 +1,10 @@
 import React from 'react'
 import "./Navbar.css"
+import Facebook from "../../img/facebook.png";
+import Twiter from "../../img/twitter.png";
+import Youtube from "../../img/youtube.png";
+import Instagram from "../../img/instagram.png";
+import HeaderLogo from "../../img/header-logo-1.png";
 export default function Navbar() {
   return (
     <div>
@@ -8,7 +13,7 @@ export default function Navbar() {
                 <div className="d-flex align-items-center justify-content-center w-100">
                         <div className="d-flex flex-column">
                             <a className="navbar-brand py-3 me-0 active ">
-                                 <img src="/img/header-logo-1.png" className="img-fluid"></img></a>
+                                 <img src={HeaderLogo} className="img-fluid"></img></a>
                         </div>
                         <div className="ms-auto d-flex align-items-center flex-column">
                            <div className='d-flex flex-row align-items-center'>
@@ -28,16 +33,16 @@ export default function Navbar() {
                                     <div className="nav-link">
                                          <span className="me-2">Follow Us</span>
                                     <a href="#" target="_blank">
-                                         <img src="/img/facebook.png" height="22" className="me-3"></img>
+                                         <img src={Facebook} height="22" className="me-3"></img>
                                     </a>
                                     <a  href="#" target="_blank">
-                                    <img src="/img/twitter.png" height="26" className="me-3"></img>
+                                    <img src={Twiter} height="26" className="me-3"></img>
                                     </a>
                                     <a href="#" target="_blank">
-                                    <img src="/img/youtube.png" height="28" className="me-3"></img>
+                                    <img src={Youtube} height="28" className="me-3"></img>
                                     </a> 
                                     <a  href="#" target="_blank">
-                                    <img src="/img/instagram.png" height="24"></img>
+                                    <img src={Instagram} height="24"></img>
                                     </a>
                                     </div>
                                 </li>

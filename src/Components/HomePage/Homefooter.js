@@ -1,5 +1,6 @@
 import React from 'react'
 import "./HomePage.css";
+import HeaderLogo from "../../img/header-logo-1.png";
 export default function Homefooter() {
   return (
     <div>
@@ -10,7 +11,7 @@ export default function Homefooter() {
                 <div className="row">
                     <div className="col-md-5">
                         <div className="d-flex align-items-center">
-                            <img src="/img/header-logo-1.png" className="footer-logo" style={{width:"400px"}}></img>
+                            <img src={HeaderLogo} className="footer-logo" style={{width:"400px"}}></img>
                         </div>
                     </div> 
                     <div className="col-md-7 mt-4 mt-md-0">
