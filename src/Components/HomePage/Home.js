@@ -30,6 +30,11 @@ import A2 from "../../img/a-2.png";
 import A3 from "../../img/a-3.png";
 import A4 from "../../img/a-4.png";
 import "./HomePage.css"
+
+import img3 from "../../img/img.3.jpg";
+
+import { ReactComponent as  CitizenCornerSvg } from "../../img/citizen-corner.svg";
+
 export default function Home() {
   return (
     <div>
@@ -126,7 +131,7 @@ export default function Home() {
                     <div className="d-flex flex-wrap justify-content-center">
                             <div className="service">
                                 <div className="service-title">
-                                    <img src={CitizenCorner} height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src="/img/citizen-corner.svg" height="50" className="mx-auto d-block mb-3"></img>
                                     <div className="text-center line-height-1">Citizen Service</div>
                                 </div>
                             </div>
@@ -188,7 +193,7 @@ export default function Home() {
                     </div>
                 <div className='col-sm-7 col-md-4 col-xl-3 col-lg-3'>
                     <div className="card" style={{border:"none",backgroundColor: "rgba(217,217,217,1)"}}>
-                        <img className="card-img-top mx-auto d-flex" src={Image5} alt="Card image" style={{width:"100%"}}></img>
+                        <img className="card-img-top mx-auto d-flex" src="/img/img.3.jpg" alt="Card image" style={{width:"100%"}}></img>
                     <div className="card-body">
                         <h4 className="card-title text-center text-dark" style={{fontWeight:"700"}}>M. M. Makandar</h4>
                         <div className="card-text text-center" style={{fontSize:"1em"}}>Principal Police Training Center, Khandala</div>
