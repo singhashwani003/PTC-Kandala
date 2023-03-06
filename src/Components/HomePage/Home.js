@@ -1,18 +1,46 @@
 import React from 'react'
 import Homefooter from './Homefooter'
+import New from "../../img/new.gif";
+import OurLogo from "../../img/ourLogo@2x.png";
+import Image1 from "../../img/3.png";
+import Image2 from "../../img/11.png";
+import Image3 from "../../img/12.png";
+import Image4 from "../../img/img.1.jpg";
+import OurLogo1 from "../../img/76.jpg"
+import CitizenCorner from "../../img/citizen-corner.svg"
+import GoodWorks from "../../img/goodworks.svg"
+import SmartCollect from "../../img/smartcollect.svg"
+import News1 from "../../img/news.svg"
+import QuickLink from "../../img/quick-links.svg"
+import ContactUs from "../../img/contact-us.svg"
+import MPolice from "../../img/m-police-2.svg"
+import Search from "../../img/search-svg.svg"
+import Image5 from "../../img/img.3.jpg"
 import CountUp from "react-countup";
+import LostFound from "../../img/lost-and-found.svg";
+import PoliceRequiter from "../../img/police-recruitment.svg";
+import TenantInfo from "../../img/tenant-information.svg";
+import Missing from "../../img/missing-person.svg";
+import Accident from "../../img/accident-compensation.svg";
+import Stolen from "../../img/stolen-unclaimed-vehicle.svg";
+import ContactSp from "../../img/img.5.jpg";
+import Quote from "../../img/quote.svg";
+import A5 from "../../img/a-2.png";
+import A2 from "../../img/a-2.png";
+import A3 from "../../img/a-3.png";
+import A4 from "../../img/a-4.png";
 import "./HomePage.css"
 export default function Home() {
   return (
     <div>
         <div className="container-fluid">
-                <div className="row">
+                <div className='row'>
                     <div className="col-12 col-md-6 offset-md-3">
                             <div className="alert alert-primary alert-dismissible fade show mt-3 d-flex align-items-center" style={{flexFlow:"wrap"}}>
                                 <button type="button" className="btn-close" data-bs-dismiss="alert"></button>
                                 <div className="flex-grow-1">
                                     <h6 className="mb-0 d-flex align-items-center">
-                                        <img src="/img/new.gif" height="30px" className="me-2"></img>
+                                        <img src={New} height="30px" className="me-2"></img>
                                         <div className='text-dark'>Recruitment 2021 - Latest Updates<br/>पोलीस भरती २०२१ - महत्वाचा सूचना</div>
                                     </h6>
                                 </div>
@@ -38,12 +66,12 @@ export default function Home() {
         </div>
 
         <div className='container pt-3 mt-5' style={{backgroundColor:"#eef5f9"}}>
-            <div className='row d-flex flex-nowrap align-items-center justify-content-between'>
-                    <div className="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+            <div className='row d-flex align-items-center justify-content-between'>
+                    <div className="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <div className="complaint-section">
                             <div className='d-flex align-items-center'>
-                                <img src="img/ourLogo@2x.png" className="our-logo hidden-xs" alt="Mumbai Police"></img>
-                                <img src="img/76.jpg" className="our-logo hidden-xs" alt="Mumbai Police" style={{marginLeft: "55px",height: "181px"}}></img>
+                                <img src={OurLogo} className="our-logo hidden-xs" alt="Mumbai Police"></img>
+                                <img src={OurLogo1} className="our-logo hidden-xs slider" alt="Mumbai Police" style={{marginLeft: "55px",height: "181px"}}></img>
                             </div>
                             <h1 className='main'>Police Training Center</h1>
                             <h5 className='main1'> &nbsp;<strong>सदैव तत्पर, सदैव मदतीस </strong></h5>
@@ -54,8 +82,8 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-7 col-md-7 col-sm-6 col-xs-12 ps-5 pe-5 img-slide">
-                        <div id="demo" className="carousel slide" data-bs-ride="carousel" style={{transform: "rotateZ(330deg)",backgroundColor: "#f1f4f8"}}>
+                    <div className="col-lg-7 col-md-7 col-sm-12 col-xs-12 img-slide">
+                        <div id="demo" className="carousel slide img1" data-bs-ride="carousel" style={{transform: "rotateZ(330deg)",backgroundColor: "#f1f4f8"}}>
                             <div className="carousel-indicators">
                                 <button type="button" data-bs-target="#demo" data-bs-slide-to="0" className="active"></button>
                                 <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
@@ -63,13 +91,13 @@ export default function Home() {
                             </div>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src="/img/3.png" alt="Los Angeles" className="d-block" style={{width:"100%" ,transform: "rotate(30deg)"}}></img>
+                                    <img src={Image1} alt="Los Angeles" className="d-block img1" style={{width:"100%" ,transform: "rotate(30deg)"}}></img>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="/img/11.png" alt="Chicago" className="d-block" style={{width:"100%",transform: "rotate(30deg)"}}></img>
+                                    <img src={Image2} alt="Chicago" className="d-block img1" style={{width:"100%",transform: "rotate(30deg)"}}></img>
                                 </div>
                                 <div className="carousel-item">
-                                    <img src="/img/12.png" alt="New York" className="d-block" style={{width:"100%",transform: "rotate(30deg)"}}></img>
+                                    <img src={Image3} alt="New York" className="d-block img1" style={{width:"100%",transform: "rotate(30deg)"}}></img>
                                 </div>
                             </div>
                             <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -87,7 +115,7 @@ export default function Home() {
            <div className='row d-flex justify-content-around align-items-center'>
                 <div className='col-sm-5 col-md-3 col-xl-3 col-lg-3'>
                 <div className="card" style={{border:"none", backgroundColor: "rgba(217,217,217,1)"}}>
-                    <img className="card-img-top mx-auto d-flex" src="/img/img.1.jpg" alt="Card image" style={{width:"100%"}}></img>
+                    <img className="card-img-top mx-auto d-flex" src={Image4} alt="Card image" style={{width:"100%"}}></img>
                     <div className="card-body">
                     <h4 className="card-title text-center text-dark" style={{fontWeight:"700"}}>Sanjay Kumar</h4>
                     <div className="card-text text-center" style={{fontSize:"1em"}}>Director General Of Police ( Training and Special Units ), Maharashtra State</div>
@@ -98,61 +126,61 @@ export default function Home() {
                     <div className="d-flex flex-wrap justify-content-center">
                             <div className="service">
                                 <div className="service-title">
-                                    <img src="/img/citizen-corner.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src={CitizenCorner} height="50" className="mx-auto d-block mb-3"></img>
                                     <div className="text-center line-height-1">Citizen Service</div>
                                 </div>
                             </div>
                             <div className="service">
                                 <div className="service-title">
-                                    <img src="/img/goodworks.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src={GoodWorks} height="50" className="mx-auto d-block mb-3"></img>
                                     <div className="text-center line-height-1">Our Works</div>
                                 </div>
                             </div>
                             <div className="service">
                                 <div className="service-title">
-                                    <img src="img/smartcollect.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src={SmartCollect} height="50" className="mx-auto d-block mb-3"></img>
                                     <div className="text-center line-height-1">Recruitment</div>
                                 </div>
                             </div>
                             <div className="service">
                                 <div  className="service-title">
-                                    <img  src="/img/news.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img  src={News1} height="50" className="mx-auto d-block mb-3"></img>
                                     <div  className="text-center line-height-1">Press Release</div>
                                 </div>
                             </div>
                             <div className="service">
                                 <div className="service-title">
-                                    <img src="/img/quick-links.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src={QuickLink} height="50" className="mx-auto d-block mb-3"></img>
                                     <div className="text-center line-height-1">Useful Links</div>
                                 </div>
                             </div>
                             <div className="service">
                                 <div  className="service-title">
-                                    <img src="/img/contact-us.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src={ContactUs} height="50" className="mx-auto d-block mb-3"></img>
                                     <div  className="text-center line-height-1">Contact Us</div>
                                 </div>
                             </div>
                             <div className="service">
                                 <div className="service-title">
-                                    <img  src="/img/m-police-2.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img  src={MPolice} height="50" className="mx-auto d-block mb-3"></img>
                                     <div  className="text-center line-height-1">Train Service</div>
                             </div>
                             </div>
                             <div className="service">
                                 <div className="service-title">
-                                    <img src="/img/goodworks.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img src={GoodWorks} height="50" className="mx-auto d-block mb-3"></img>
                                     <div className="text-center line-height-1">Our Works</div>
                                 </div>
                             </div>
                                 <div  className="service">
                                     <div  className="service-title">
-                                        <img  src="/img/search-svg.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                        <img  src={Search} height="50" className="mx-auto d-block mb-3"></img>
                                         <div  className="text-center line-height-1">Railway Map</div>
                                     </div>
                                 </div>
                                 <div className="service">
                                 <div  className="service-title">
-                                    <img  src="/img/news.svg" height="50" className="mx-auto d-block mb-3"></img>
+                                    <img  src={News1} height="50" className="mx-auto d-block mb-3"></img>
                                     <div  className="text-center line-height-1">Press Release</div>
                                 </div>
                             </div>
@@ -160,7 +188,7 @@ export default function Home() {
                     </div>
                 <div className='col-sm-7 col-md-4 col-xl-3 col-lg-3'>
                     <div className="card" style={{border:"none",backgroundColor: "rgba(217,217,217,1)"}}>
-                        <img className="card-img-top mx-auto d-flex" src="/img/img.3.jpg" alt="Card image" style={{width:"100%"}}></img>
+                        <img className="card-img-top mx-auto d-flex" src={Image5} alt="Card image" style={{width:"100%"}}></img>
                     <div className="card-body">
                         <h4 className="card-title text-center text-dark" style={{fontWeight:"700"}}>M. M. Makandar</h4>
                         <div className="card-text text-center" style={{fontSize:"1em"}}>Principal Police Training Center, Khandala</div>
@@ -180,12 +208,12 @@ export default function Home() {
                             <div className="row">
                                 <div className="mt-5 d-flex flex-column align-items-center col">
                                     <a className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
-                                    <img alt="[object Object]" src="/img/lost-and-found.svg" width="65" height="67" className="d-inline-block align-top"></img></a>
+                                    <img alt="[object Object]" src={LostFound} width="65" height="67" className="d-inline-block align-top"></img></a>
                                     <p className="text-center mt-3"><span>Lost &amp; Found</span></p>
                             </div>
                                 <div className="mt-5 d-flex flex-column align-items-center col">
                                     <a className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
-                                    <img alt="[object Object]" src="/img/police-recruitment.svg" width="65" height="67" className="d-inline-block align-top"></img>
+                                    <img alt="[object Object]" src={PoliceRequiter} width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
                                     <p className="text-center mt-3">
                                     <span>Police Recruitment</span>
@@ -193,19 +221,19 @@ export default function Home() {
                                 </div>
                                 <div className="mt-5 d-flex flex-column align-items-center col">
                                     <a href="#" target="_blank" className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
-                                    <img alt="[object Object]" src="/img/tenant-information.svg" width="65" height="67" className="d-inline-block align-top"></img>
+                                    <img alt="[object Object]" src={TenantInfo} width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
                                     <p className="text-center mt-3"><span>Tenant Information</span></p>
                                 </div>
                                 <div className="mt-5 d-flex flex-column align-items-center col">
                                     <a href="#" target="_blank" className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
-                                    <img alt="[object Object]" src="/img/missing-person.svg" width="65" height="67" className="d-inline-block align-top"></img>
+                                    <img alt="[object Object]" src={Missing} width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
                                     <p className="text-center mt-3"><span>Missing Persons</span></p>
                                 </div>
                                 <div className="mt-5 d-flex flex-column align-items-center col">
                                     <a className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center" href="#">
-                                    <img alt="[object Object]" src="/img/accident-compensation.svg" width="65" height="67" className="d-inline-block align-top"></img>
+                                    <img alt="[object Object]" src={Accident} width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
                                     <p className="text-center mt-3">
                                     <span>Accident Compensation</span>
@@ -213,7 +241,7 @@ export default function Home() {
                                 </div>
                                 <div className="mt-5 d-flex flex-column align-items-center col">
                                     <a href="#" target="_blank" className="quick-links-image-wrapper rounded-circle justify-content-center align-items-center">
-                                    <img alt="[object Object]" src="/img/stolen-unclaimed-vehicle.svg" width="65" height="67" className="d-inline-block align-top"></img>
+                                    <img alt="[object Object]" src={Stolen} width="65" height="67" className="d-inline-block align-top"></img>
                                     </a>
                                     <p className="text-center mt-3">
                                     <span>Stolen &amp; Unclaimed Vehicles</span>
@@ -229,7 +257,7 @@ export default function Home() {
                             <div className="col-12 col-md-5 mt-5 col d-flex align-items-center">
                                 <div className="col">
                                     <div className="sp-section">
-                                    <img alt="contact Sp" src="/img/img.5.jpg" className="d-block align-center sp-section-img"></img>
+                                    <img alt="contact Sp" src={ContactSp} className="d-block align-center sp-section-img"></img>
                                     <a href="#civil-speech" className="btn border-radius-50 sp-section-buttons d-none btn btn-primary">Engage with CP</a>
                                     </div>
                                 </div>
@@ -237,7 +265,7 @@ export default function Home() {
                         <div className="col-12 col-md-7 mt-5 col">
                             <div className="row">
                                     <div className="col-12 col-md-2 justify-content-center col">
-                                        <img alt="quote" src="/img/quote.svg" width="85" height="59" className="d-block align-top rounded-circle m-auto"></img>
+                                        <img alt="quote" src={Quote} width="85" height="59" className="d-block align-top rounded-circle m-auto"></img>
                                     </div>
                                     <div className="col-12 col-md-10 col">
                                         <h2 className='head-text-start'>PTC Khandala</h2>
@@ -254,8 +282,16 @@ export default function Home() {
                             <h1>Our Trainers are well Qualified</h1>
                             <p>We don't like to brag, but we don't mind letting our customers do it for us.<br/> Here are a few nice things folks have said about our themes over the years</p>
                         </div>
-                        <div className="row shape1">
-                                <div className="col-sm-6 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center" style={{borderRadius: "0px 150px 150px 0px",backgroundColor:"rgb(232 243 218)"}}>
+                        <div className="row shape2" style={{margintop: "3rem",
+                            boxShadow:"4px 4px 40px rgba(150, 121, 121, 0.6)",
+                            boxSizing: "border-box",
+                            width: "100%",
+                            height: "350px",
+                            marginLeft: "auto",
+                            marginRight: "auto",
+                            backgroundColor: "white",
+                            borderRadius: "6px"}}>
+                                <div className="col-sm-12 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center shape3" style={{borderRadius: "0px 150px 150px 0px",backgroundColor:"rgb(232 243 218)"}}>
                                 <div>
                                     <h1>Indoor Training</h1>
                                     <p>"Indoor and Outdoor basic training for women police constables is imparted for a period of 09 months."</p>
@@ -264,7 +300,7 @@ export default function Home() {
                                     </div>
                                 </div>
                                 </div>
-                                <div className="col-sm-6 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center">
+                                <div className="col-sm-12 col-md-6 col-xl-6 col-lg-6 text d-flex align-items-center justify-content-center">
                                     <div>
                                         <h1>Outdoor Training</h1>
                                         <p>"The trainees mainly belong to various remote and tribal districts of Maharashtra like Nagpur, Gadchiroli, Chandrapur, Gondia, etc."</p>
@@ -273,8 +309,6 @@ export default function Home() {
                                         </div>
                                     </div>
                             </div>
-                            <i className='fas fa-arrow-alt-circle-left' id="prev" style={{color:"royalblue"}}></i>
-                            <i className='fas fa-arrow-alt-circle-right' id="next" style={{color:"royalblue"}}></i>
                         </div>
                      </div>
                 </section>
@@ -312,23 +346,32 @@ export default function Home() {
                     </div>
                 </div>
                 
-                <div className='container-fluid mt-5 gallery'>
+                <div className='container-fluid mt-5 gallery1'>
                 <h2 className='text-secondary d-flex align-items-center justify-content-center pb-5 mb-3' style={{fontWeight:"700"}}> Police Training Center Khandala Gallery</h2>
                     <div className='row'>
-                      <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-5.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
+                      <div className='col-xl-3 col-lg-3 col-sm-12 col-md-6 max mt-3'>
+                            <img src={A5} alt="galleryimage" style={{width:"100%",height:"300px",borderRadius:"6px"}}></img>
                       </div>
-                      <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-2.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
+                      <div className='col-xl-3 col-lg-3 col-sm-12 col-md-6 max mt-3'>
+                            <img src={A2} alt="galleryimage" style={{width:"100%",height:"300px",borderRadius:"6px"}}></img>
                       </div>
-                      <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-3.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
+                      <div className='col-xl-3 col-lg-3 col-sm-12 col-md-6 max mt-3'>
+                            <img src={A3} alt="galleryimage" style={{width:"100%",height:"300px",borderRadius:"6px"}}></img>
                       </div>
-                      <div className='col-xl-3 col-lg-3 col-sm-6 col-md-6'>
-                            <img src="img/a-4.png" alt="galleryimage" style={{width:"325px",height:"300px",borderRadius:"6px"}}></img>
+                      <div className='col-xl-3 col-lg-3 col-sm-12 col-md-6 max mt-3'>
+                            <img src={A4} alt="galleryimage" style={{width:"100%",height:"300px",borderRadius:"6px"}}></img>
                       </div>
                     </div>
                 </div>
+            <div className="tooltip-container">
+            <button type="button" class="floating-button"><i className='fas fa-phone' style={{fontSize:"25px",color:"white"}}></i></button>
+                <div className="popup-cont">
+                    <div className="titleContainer">LOW BALANCE</div>
+                    <div className="content-elem">Your balance is too low to play. Please deposit funds into your account.</div>
+                    <button type="button" className="navbar-button btn-cont" data-bs-dismiss="modal">Close</button>
+                    <div className="game-number">06:40:45</div>
+                </div>
+            </div>
         <Homefooter/>
     </div>
   )
