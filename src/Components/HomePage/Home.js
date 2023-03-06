@@ -29,6 +29,7 @@ import A5 from "../../img/a-2.png";
 import A2 from "../../img/a-2.png";
 import A3 from "../../img/a-3.png";
 import A4 from "../../img/a-4.png";
+import IGP from "../../img/img.3.jpg"
 import "./HomePage.css"
 
 import img3 from "../../img/img.3.jpg";
@@ -193,7 +194,7 @@ export default function Home() {
                     </div>
                 <div className='col-sm-7 col-md-4 col-xl-3 col-lg-3'>
                     <div className="card" style={{border:"none",backgroundColor: "rgba(217,217,217,1)"}}>
-                        <img className="card-img-top mx-auto d-flex" src="/img/img.3.jpg" alt="Card image" style={{width:"100%"}}></img>
+                        <img className="card-img-top mx-auto d-flex" src={IGP} alt="Card image" style={{width:"100%"}}></img>
                     <div className="card-body">
                         <h4 className="card-title text-center text-dark" style={{fontWeight:"700"}}>M. M. Makandar</h4>
                         <div className="card-text text-center" style={{fontSize:"1em"}}>Principal Police Training Center, Khandala</div>
@@ -368,16 +369,41 @@ export default function Home() {
                       </div>
                     </div>
                 </div>
-            <div className="tooltip-container">
-            <button type="button" class="floating-button"><i className='fas fa-phone' style={{fontSize:"25px",color:"white"}}></i></button>
-                <div className="popup-cont">
-                    <div className="titleContainer">LOW BALANCE</div>
-                    <div className="content-elem">Your balance is too low to play. Please deposit funds into your account.</div>
-                    <button type="button" className="navbar-button btn-cont" data-bs-dismiss="modal">Close</button>
-                    <div className="game-number">06:40:45</div>
-                </div>
+            <button type="button" class="floating-button" data-bs-toggle="modal" data-bs-target="#myModal"><i className='fas fa-phone' style={{fontSize:"25px",color:"white"}}></i></button>
+                <div className="modal" id="myModal">
+  <div class="modal-dialog modal-md">
+        <div class="modal-content" style={{backgroundColor:"rgba(217,217,217,1)"}}>
+            <div class="modal-header">
+                <h2 class="modal-title">Contact-us</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-        <Homefooter/>
+            <div class="modal-body">
+            <div className='row justify-content-between'>
+            <div className='col-6'>
+                <p>SMS your grievance on</p>
+                <p>Traffic Whatsapp Helpline</p>
+                <p>Mumbai Police Elder Line</p>
+                <p>Police Control Room</p>
+                <p>Alert Citizen</p>
+                <p>Cyber helpline</p>
+            </div>
+            <div className='col-6'>
+                <p>7738133133 , 7738144144</p>
+                <p>8454999999</p>
+                <p>1090</p>
+                <p>100</p>
+                <p>103</p>
+                <p>9820810007</p>
+            </div>
+            </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+  </div>
+</div>
+</div>
+ <Homefooter/>
     </div>
   )
 }
