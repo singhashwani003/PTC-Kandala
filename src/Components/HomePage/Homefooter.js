@@ -64,7 +64,7 @@ export default function Homefooter() {
                         <div className="col-4 text-right">Copyright  <span className="text-danger">PTC Khandala </span> 2023. All Rights Reserved.</div>
                         <div className="col-4">Police Training Center, Khandala, Dist – Pune, Tal – Maval Maharashtra, India.</div>
                         <div className="col-4 text-left">
-                            <a href="#" target="_blank" className="unset"><span className="text-danger"> Happy Visitors Dot Com – </span><br/>Website Design and Development Company In Kolhapur</a>
+                            <a href="#" target="_blank" className="unset"><span className="text-danger"> Designed and Developed By Axenous</span></a>
                         </div>
                     </div>
                 </small>
